@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: linear-gradient(rgb(26, 25, 25)) rgb(24, 21, 21) ;
+    background-image: url('images/new.jpg' );
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 5px;;
+}
+p{
+    font-size: 50px;
+    color: white;
+}
+p{
+    font-size: 13px;
+}
+.counter{
+    justify-content: center;
+    height: 60px;
+    width: 300px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    display:flex;
+    gap: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+
+@media (min-width:768px){
+    p{
+        font-size: 40px;;
+    }
+    .newyear{
+        font-size: 50px;
+    }
+    .counter{
+        font-size: 40px;
+        height: 160px;
+        width:600px ;
+    }
+}
